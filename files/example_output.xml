@@ -1,0 +1,47 @@
+<catalog>
+  <book id="bk101">
+    <author>Gambardella, Matthew</author>
+    <title>XML Developer's Guide</title>
+    <genre>Computer</genre>
+    <price increased="yes">45.95</price>
+    <publish_date>2000-10-01</publish_date>
+    <description>An in-depth look at creating applications
+      with XML.</description>
+  </book>
+  <book id="bk103">
+    <author>Corets, Eva</author>
+    <title>Maeve Ascendant</title>
+    <genre>Fantasy</genre>
+    <price increased="yes">6.95</price>
+    <publish_date>2000-11-17</publish_date>
+    <description>After the collapse of a nanotechnology
+      society in England, the young survivors lay the
+      foundation for a new society.</description>
+  </book>
+  <book id="bk109">
+    <author>Kress, Peter</author>
+    <title>Paradox Lost</title>
+    <genre>Science Fiction</genre>
+    <price increased="yes">7.95</price>
+    <publish_date>2000-11-02</publish_date>
+    <description>After an inadvertant trip through a Heisenberg
+      Uncertainty Device, James Salway discovers the problems
+      of being quantum.</description>
+  </book>
+  <book id="bk113">
+    <author>J.K Rowlings</author>
+    <title>Harry Potter and the Sorcerer's Stone</title>
+    <genre>Fantasy</genre>
+    <price>31.50</price>
+    <publish_date>2001-10-16</publish_date>
+    <description>A very nice fantasy book.</description>
+  </book>
+  <book id="bk114">
+    <description>The second volume of a very nice fantasy book.</description>
+    <title>Harry Potter and the Chamber of Secrets</title>
+    <price>35.50</price>
+    <author>J.K Rowlings</author>
+    <publish_date>2002-10-15</publish_date>
+    <genre>Fantasy</genre>
+  </book>
+</catalog>
