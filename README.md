@@ -10,7 +10,7 @@ Python classes - IPython notebooks
 * ***Django***: ```pip install django``` - [Installation instructions](https://docs.djangoproject.com/en/1.8/topics/install)
 
 ### Download class materials
-* [Installation instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+* ***git***: [Installation instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * ```git clone https://github.com/ocervell/python_classes```
 
 ### Run IPython Notebook
