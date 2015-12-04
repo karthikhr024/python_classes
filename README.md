@@ -1,10 +1,12 @@
 # Python classes - IPython notebooks
 
-### Python libraries requirements:
+### Requirements:
+* ***Python 2.7***: [Installation instructions for Windows](http://docs.python-guide.org/en/latest/starting/install/win/)
 * ***pip***: should be installed on recent Python versions -  [Installation instructions](http://python-packaging-user-guide.readthedocs.org/en/latest/installing/#install-pip-setuptools-and-wheel).
 * ***IPython notebook***:  ```pip install ipython``` OR ```pip install jupyter``` - [Installation instructions](http://jupyter.readthedocs.org/en/latest/install.html)
 * ***Numpy***:    ```pip install numpy``` - [Installation instructions](http://docs.scipy.org/doc/numpy-1.10.1/user/install.html)
 * ***Pandas***:   ```pip install pandas``` - [Installation instructions](http://pandas.pydata.org/pandas-docs/stable/install.html)
+* ***Django***: ```pip install django``` - [Installation instructions](https://docs.djangoproject.com/en/1.8/topics/install)
 
 
 ### Download class materials and run Ipython notebook
@@ -12,6 +14,8 @@
 * ```git clone https://github.com/ocervell/python_classes```
 * ```cd python_classes```
 * ```ipython notebook``` OR ```jupyter notebook```
+
+![??? ](question_mark.png)Problems with installations? Contact [me](mailto:ocervello@cccis.com)
 
 
 ### Class curriculum
