@@ -4,9 +4,6 @@ Python classes
 ### Requirements:
 * Python **2.7** is the required version of Python for these classes.
 * Python libraries required: **IPython notebook**, **Numpy**, **Matplotlib**, **Pandas**, **Django**, **MySQL Connector**, **Boto3**.
-* ***Problems with following installation instructions ?***
-  * First check the ***Installation instructions*** link.
-  * If you're still having problems, contact [me](mailto:ocervello@cccis.com)
 
 **==> If you have an existing Python 2.7 installation:**
 * ***pip*** (*should be installed on recent Python distributions*) -  [Installation instructions](http://python-packaging-user-guide.readthedocs.org/en/latest/installing/#install-pip-setuptools-and-wheel).
@@ -14,18 +11,31 @@ Python classes
 * ***Numpy***:    ```pip install numpy``` - [Installation instructions](http://docs.scipy.org/doc/numpy-1.10.1/user/install.html)
 * ***Matplotlib***: ```easy_install matplotlib```(Windows) or ```pip install matplotlib```(MacOS) - [Installation instructions]()
 * ***Pandas***:   ```pip install pandas``` - [Installation instructions](http://pandas.pydata.org/pandas-docs/stable/install.html)
-* ***Django***: ```pip install django``` - [Installation instructions](https://docs.djangoproject.com/en/1.8/topics/install)
+* ***Django***:
+  * ```pip install django``` - [Installation instructions](https://docs.djangoproject.com/en/1.8/topics/install)
+  * ```pip install djangorestframework```
+  * ```pip install requests```
 * ***MySQL Connector***: ```pip install mysql-connector-python --allow-exteernal mysql-connector-python``` [Installation instructions](https://geert.vanderkelen.org/2014/install-mysqlcpy-using-pip/)
 * ***Boto3***: ```pip install boto3``` - [Installation instructions](http://boto3.readthedocs.org/en/latest/guide/quickstart.html)
 
 **==> If you don't have any Python 2.7 installation:**
+
+Follow ***either*** one of the following bullets.
+The first bullet provides  a minimal installation of Python, allowing you to control your Python installation. The second bullet installs Python Anaconda, a fully-featured Python installation for scientific computing.
+* ***Python*** [Installation Instructions](https://www.python.org/downloads/)
+  * Once installed, add C:\Python27 and C:\Python27\Scripts to your ```%PATH```.
+  * Follow the steps in '==> If you have an existing Python 2.7 installation'.
 * ***Python Anaconda*** (fully-featured Python installation for scientific computing): [Installation instructions](http://docs.continuum.io/anaconda/install) - Choose the **Python 2.7** installation.
-* ***Ipython notebook***: ```conda install jupyter```
-* ***Django***: ```conda install -c https://conda.anaconda.org/trentonoliphant django```
-* ***MySQL Connector***: ```conda install -c https://conda.anaconda.org/anaconda mysql-connector-python``` [Installation instructions](https://anaconda.org/anaconda/mysql-connector-python)
-* ***Boto3***:
-    * ***Windows:*** ```cd C:\Anaconda\Scripts && pip install boto3```
-    * ***MacOS X:*** ```cd ~/anaconda/scripts && pip install boto3```
+  * ***Ipython notebook***: ```conda install jupyter```
+  * ***Django***:
+    * ```conda install -c https://conda.anaconda.org/trentonoliphant django```
+  * ***Django rest framework***:
+    * ***Windows:*** ```cd C:\anaconda\Scripts``` and ```pip install djangorestframework``` and ```pip install requests```
+    * ***MacOS X:*** ```cd ~/anaconda/scripts && pip install djangorestframework && pip install requests```
+  * ***MySQL Connector***: ```conda install -c https://conda.anaconda.org/anaconda mysql-connector-python``` [Installation instructions](https://anaconda.org/anaconda/mysql-connector-python)
+  * ***Boto3***:
+      * ***Windows:*** ```cd C:\Anaconda\Scripts``` and ```pip install boto3```
+      * ***MacOS X:*** ```cd ~/anaconda/scripts && pip install boto3```
 
 ### Download class materials
 * **From Git**:
