@@ -15,7 +15,7 @@ Python classes
   * ```pip install django``` - [Installation instructions](https://docs.djangoproject.com/en/1.8/topics/install)
   * ```pip install djangorestframework```
   * ```pip install requests```
-* ***MySQL Connector***: ```pip install mysql-connector-python --allow-exteernal mysql-connector-python``` [Installation instructions](https://geert.vanderkelen.org/2014/install-mysqlcpy-using-pip/)
+* ***MySQL Connector***: ```pip install mysql-connector-python --allow-external mysql-connector-python``` [Installation instructions](https://geert.vanderkelen.org/2014/install-mysqlcpy-using-pip/)
 * ***Boto3***: ```pip install boto3``` - [Installation instructions](http://boto3.readthedocs.org/en/latest/guide/quickstart.html)
 
 **==> If you don't have any Python 2.7 installation:**
