@@ -1,0 +1,31 @@
+<catalog>
+   <book id="bk101000000000">
+      <author>Gambardella, Matthew</author>
+      <title>XML Developer's Guide</title>
+      <genre>Computer</genre>
+      <price increased="no">50.95</price>
+      <publish_date>2000-10-01</publish_date>
+      <description>An in-depth look at creating applications
+      with XML.</description>
+   </book>
+   <book id="bk103000000000">
+      <author>Corets, Eva</author>
+      <title>Maeve Ascendant</title>
+      <genre>Fantasy</genre>
+      <price increased="no">11.95</price>
+      <publish_date>2000-11-17</publish_date>
+      <description>After the collapse of a nanotechnology
+      society in England, the young survivors lay the
+      foundation for a new society.</description>
+   </book>
+   <book id="bk109000000000">
+      <author>Kress, Peter</author>
+      <title>Paradox Lost</title>
+      <genre>Science Fiction</genre>
+      <price increased="no">12.95</price>
+      <publish_date>2000-11-02</publish_date>
+      <description>After an inadvertant trip through a Heisenberg
+      Uncertainty Device, James Salway discovers the problems
+      of being quantum.</description>
+   </book>
+</catalog>
